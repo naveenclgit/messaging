@@ -2,7 +2,7 @@ import socket
 
 def main():
     host = "0.0.0.0"  # Listen on all available interfaces
-    port = 12345
+    port = 51014
 
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_socket.bind((host, port))

@@ -2,7 +2,7 @@ import socket
 
 def main():
     host = "10.0.0.91"    #"server_ip_address"  # Replace with the server's IP address or hostname
-    port = 12345
+    port = 51014
 
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client_socket.connect((host, port))
